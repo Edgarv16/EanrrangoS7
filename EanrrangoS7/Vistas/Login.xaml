@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EanrrangoS7.Vistas.Login">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="VENTANA DE INICIO DE SESION"  FontSize="18" HorizontalTextAlignment="Center" />
+
+            <Entry x:Name="txtUsuario" Placeholder="Usuario "></Entry>
+            <Entry  x:Name="txtContrasena" Placeholder="Contrasena " IsPassword="True" ></Entry>
+            <Button x:Name="btnInicio" Text="Inicio" Clicked="btnInicio_Clicked"  ></Button>
+            <Button x:Name="btnRegistrar" Text="Registro" Clicked="btnRegistrar_Clicked"  ></Button>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

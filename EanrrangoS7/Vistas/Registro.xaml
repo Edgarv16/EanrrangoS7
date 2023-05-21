@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EanrrangoS7.Vistas.Registro">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="VENTANA REGISTRO"
+                FontSize="18"
+                HorizontalTextAlignment="Center" />
+
+
+            <Entry x:Name="txtNombre" Placeholder="Ingrese Nombre "></Entry>
+            <Entry x:Name="txtUsuario" Placeholder="Ingrese Usuario "></Entry>
+            <Entry x:Name="txtContrasena" Placeholder="Ingrese Contrasena"></Entry>
+            <Button x:Name="btnIngresar" Text="Ingresar" Clicked="btnIngresar_Clicked"  ></Button>
+            
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
